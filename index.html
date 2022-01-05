@@ -19,55 +19,87 @@
 
     <body>
         <header>
-            <img src="images/logo-KohFrais.png" alt="Logo Koh Frais" title="Logo de la marque Koh Frais" width="150px" height="150px">
-            <ul>
-                <li>
-                    <p>Particulier</p>
-                </li>
-                <li>
-                    <p>Professionnel</p>
-                </li>
-                <li>
-                    <p>Nos Valeurs</p>
-                </li>
-                <li>
-                    <p>Nous contacter</p>
-                </li>
-            </ul>
-            <a href="https://www.facebook.com/">
-                <img src="images/logoFaceBook.png" alt="Découvrez notre page Facebook !" width="100px" height="100px">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/logoTwitter.png" alt="Découvrez notre page twitter !" width="100px" height="100px">
-            </a>
+            <div  class="row align-items-center">
+                <div class="container-fluid">
+                    <div class ="row">
+                        <div class="col-3">
+                            <img src="images/logo-KohFrais.png" alt="Logo Koh Frais" title="Logo de la marque Koh Frais" width="200px" height="150px">
+                        </div>
+                        <div class="col-8">
+                            <ul>
+                                <li class="col-1">
+                                    <p>Particulier</p>
+                                </li>
+                                <li class="col-1">
+                                    <p>Professionnel</p>
+                                </li>
+                                <li class="col-1">
+                                    <p>Nos Valeurs</p>
+                                </li>
+                                <li class="col-1">
+                                    <p>Nous contacter</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-1">
+                            <a href="https://www.facebook.com/">
+                                <img src="images/logoFaceBook.png" alt="Découvrez notre page Facebook !" width="100px" height="100px">
+                            </a>
+                            <a href="https://twitter.com">
+                                <img src="images/logoTwitter.png" alt="Découvrez notre page twitter !" width="100px" height="100px">
+                            </a>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            
+            
+            
         </header>
 
         <main>
+            <h1>Nouveaux Produits</h1>
+
 			<div class="container">
-				<div class="w-10 h-10">
-					<div id="carouselNouveauProdFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="images/Bac_glace2.jpg" alt="Glace saveur fraise" class="d-block w-10 h-10">
-							</div>
-							<div class="carousel-item">
-								<img src="images/Coulis_caramel.jpg" class="d-block w-10 h-10" alt="Glace ">
-							</div>
-							<div class="carousel-item">
-								<img src="images/Coulis_Kiwi.jpg" class="d-block w-10 h-10" alt="Glace">
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselNouveauProdFade" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselNouveauProdFade" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-				</div>
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-ride="#carrousel1" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-ride="#carrousel1" data-bs-slide-to="1"></button> 
+                        <button type="button" data-bs-ride="#carrousel1" data-bs-slide-to="2"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Bac_glace2.jpg" alt="Glace saveur fraise" class="d-block" style="width:328px;height:168px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Coulis_caramel.jpg" class="d-block w-10 h-10" alt="Glace" style="width:328px;height:168px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Coulis_Kiwi.jpg" class="d-block w-10 h-10" alt="Glace" style="width:328px;height:168px">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNouveauProdFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselNouveauProdFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 			</div>
+
+
+            <img src="images/Glace_Italienne1.jpg" alt="Glace à l'Italienne pour les plus gourmands">
+
+
+
+
+
+
+            <img src="images/Glace_Italienne1.jpg" alt="Glace à l'Italienne pour les plus gourmands">
 
 			
           	
@@ -77,9 +109,6 @@
         <!-- JavaScript -->
         <!-- jQuery, Popper.js, Bootstrap JS -->
         <!-- LIEN LOCAUX ET PAS SUR INTERNET  -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+        <script src="boostrap/js/bootstrap.js"></script>
     </body>
 </html>
