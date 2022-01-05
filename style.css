@@ -1,0 +1,25 @@
+body{
+    background-color: #3C5768;
+}
+
+header{
+    background-color: #7EA1C4;
+}
+header article{
+    background-color: #F2CAA7;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.logo{
+    width: 130px;
+}
+footer{
+
+    background-color: #F2CAA7;
+}
+
+h1{
+    text-align: center;
+    color: #F2CAA7;
+}
