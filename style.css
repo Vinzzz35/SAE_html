@@ -17,6 +17,11 @@ header h4{
     border-radius: 10%;
 }
 
+header a{
+    color: #3C5768;
+    text-decoration: none;
+}
+
 .logo{
     width: 130px;
 }
@@ -58,17 +63,6 @@ p{
 .d-block{
     width: 40em;
     height: 40em;
-}
-
-
-
-.carousel-control-prev-icon{
-    background-color:black;
-
-}
-.carousel-control-next-icon{
-    background-color:black;
-
 }
 
 h1{
