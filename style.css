@@ -1,5 +1,21 @@
+@font-face{
+    font-family: 'Montser';
+    src: url(Font/montserrat/montserratalternates-light-webfont.woff2)format('woff2'),
+        url(Font/montserrat/montserratalternates-light-webfont.woff)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Alex-Brush';
+    src: url(Font/alex-brush/alexbrush-regular-webfont.woff2)format('woff2'),
+        url(Font/alex-brush/alexbrush-regular-webfont.woff)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    font-family: 'Scope One';
+    font-family: 'Montser',arial,sans-serif;
     background-color: #3C5768 ;
 }
 
@@ -36,6 +52,14 @@ header a{
 
 }
 
+.btncatalogue{
+    background-color: #F2CAA7;
+    color: #3C5768;
+    height: 3.5em;
+    font-size: 3em;
+
+}
+
 .container{
     background-color: #3C5768;
     padding: 2%;
@@ -67,4 +91,10 @@ p{
 
 h1{
     color: #F2CAA7;
+    font-family: 'Alex-brush', arial,sans-serif;
+}
+
+h2{
+    color: #F2CAA7;
+    font-size: 5em;
 }
