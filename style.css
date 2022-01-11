@@ -17,7 +17,7 @@ header h4{
     border-radius: 10%;
 }
 
-header a{
+a{
     color: #3C5768;
     text-decoration: none;
 }
@@ -72,12 +72,19 @@ h1 ,h2{
     color: #F2CAA7;
 }
 
+
+figcaption{
+    color:#F2CAA7;
+    font-size: 2em;
+}
+
 h1{
     text-align: center;
 }
 
 footer{
     background-color: #F2CAA7;
+    padding:1%;
 }
 
 hr{
