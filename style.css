@@ -1,25 +1,85 @@
 body{
-    background-color: #3C5768;
+    font-family: 'Scope One';
+    background-color: #3C5768 ;
 }
 
 header{
     background-color: #7EA1C4;
+    color: #3C5768;
+    margin-bottom: 5em;
 }
-header article{
+
+header h4{
     background-color: #F2CAA7;
     text-align: center;
-    border-radius: 25%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+header a{
+    color: #3C5768;
+    text-decoration: none;
 }
 
 .logo{
-    width: 130px;
+    width: 150px;
 }
-footer{
 
+
+.btncarrouselle{
     background-color: #F2CAA7;
+    color: #3C5768;
+    height: 15%;
+    bottom: 0;
+    left:2%;
+
+}
+
+.container{
+    background-color: #3C5768;
+    padding: 2%;
+    width: 100%;
+    height:50%;
+}
+
+p{
+    font-size: 2em;
+    color: #F2CAA7;
+}
+
+.composition, .presentation{
+    color: white;
+    font-size: 1.5em;
+    list-style-position: inside;
+}
+
+.rounded{
+    border-radius: 500px;
+}
+
+.carrouselle{
+    height: 100%;
+    width: 100%;
+}
+
+.d-block{
+    width: 40em;
+    height: 40em;
+}
+
+h1 ,h2{
+    color: #F2CAA7;
 }
 
 h1{
     text-align: center;
+}
+
+footer{
+    background-color: #F2CAA7;
+}
+
+hr{
     color: #F2CAA7;
 }
