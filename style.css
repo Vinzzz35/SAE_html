@@ -17,14 +17,15 @@ header h4{
     border-radius: 10%;
 }
 
-header a{
+a{
     color: #3C5768;
     text-decoration: none;
 }
 
 .logo{
-    width: 130px;
+    width: 150px;
 }
+
 
 .btncarrouselle{
     background-color: #F2CAA7;
@@ -32,7 +33,6 @@ header a{
     height: 15%;
     bottom: 0;
     left:2%;
-    font-size: 3em;
 
 }
 
@@ -48,6 +48,11 @@ p{
     color: #F2CAA7;
 }
 
+.composition, .presentation{
+    color: white;
+    font-size: 1.5em;
+    list-style-position: inside;
+}
 
 .rounded{
     border-radius: 500px;
@@ -58,13 +63,30 @@ p{
     width: 100%;
 }
 
-
-
 .d-block{
     width: 40em;
     height: 40em;
 }
 
+h1 ,h2{
+    color: #F2CAA7;
+}
+
+
+figcaption{
+    color:#F2CAA7;
+    font-size: 2em;
+}
+
 h1{
+    text-align: center;
+}
+
+footer{
+    background-color: #F2CAA7;
+    padding:1%;
+}
+
+hr{
     color: #F2CAA7;
 }
