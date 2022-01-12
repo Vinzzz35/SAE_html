@@ -21,11 +21,11 @@
     <body>
         <header class="row align-items-center">
             <img class="col logo" src="images/logo-KohFrais.png" alt="Logo Koh Frais" title="Logo de la marque Koh Frais" >
-            <h4 class="col"><a href="gammeParticulier.html">Particuliers</a></h4>
-            <h4 class="col"><a href="gammeProfessionnelle.html">Professionnels</a></h4>
-            <h4 class="col"><a href="index2.html">Nos Valeurs</a></h4>
-            <h4 class="col"><a href="index2.html">Nous contacter</a></h4>
-            <aside class="col"> 
+            <h4 class="col d-none d-lg-block"><a href="gammeParticulier.html">Particuliers</a></h4>
+            <h4 class="col d-none d-lg-block"><a href="gammeProfessionnelle.html">Professionnels</a></h4>
+            <h4 class="col d-none d-lg-block"><a href="index2.html">Nos Valeurs</a></h4>
+            <h4 class="col d-none d-lg-block"><a href="index2.html">Nous contacter</a></h4>
+            <aside class="col d-none d-lg-block"> 
                 <a href="https://www.facebook.com/">
                     <img src="images/logoFaceBook.png" alt="Découvrez notre page Facebook !" style="width:100px;height:100px">
                 </a>
@@ -33,6 +33,26 @@
                     <img src="images/logoTwitter.png" alt="Découvrez notre page twitter !" style="width:100px;height:100px">
                 </a>
             </aside>
+
+            <nav class="col navbar navbar-light navbar-expand-lg d-lg-none">
+                <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar"
+                aria-controls="toogleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav text-start">
+                        <li class="nav-item "> <a href="gammeParticulier.html">Particuliers</a> </li>
+                        <li class="nav-item"> <a href="gammeProfessionnelle.html">Professionnels</a> </li>
+                        <li class="nav-item"> <a href="index2.html">Nos Valeurs</a> </li>
+                        <li class="nav-item"> <a href="index2.html">Nous contacter</a> </li>
+                    </ul>
+                </div>
+            </nav>
+
         </header>
 
         <main>
