@@ -18,30 +18,47 @@
     <body>
         <div class="container-fluid">
             <header class="row align-items-center">
-                <a class="col-1" href="index.html">
+                <a class="col col-lg-1" href="index.html">
                     <img class="logo" src="images/logo-KohFrais.png" alt="Logo Koh Frais" title="Logo de la marque Koh Frais" >
                 </a>
-                <h4 class="col"><a href="gammeParticulier.html">Particuliers</a></h4>
-                <h4 class="col"><a href="gammeProfessionnelle.html">Professionnels</a></h4>
-                <h4 class="col"><a href="index.html">Nos Valeurs</a></h4>
-                <h4 class="col"><a href="index.html">Nous contacter</a></h4>
-                <aside class="col"> 
+                <h4 class="col d-none d-lg-block"><a href="gammeParticulier.html">Particuliers</a></h4>
+                <h4 class="col d-none d-lg-block"><a href="gammeProfessionnelle.html">Professionnels</a></h4>
+                <h4 class="col d-none d-lg-block"><a href="index2.html">Nos Valeurs</a></h4>
+                <h4 class="col d-none d-lg-block"><a href="index2.html">Nous contacter</a></h4>
+                <aside class="col d-none d-lg-block"> 
                     <a href="https://www.facebook.com/">
-                        <img src="images/logoFaceBook.png" alt="Découvrez notre page Facebook !" style="width:100px;height:100px;">
+                        <img src="images/logoFaceBook.png" alt="Découvrez notre page Facebook !" style="width:100px;height:100px">
                     </a>
                     <a href="https://twitter.com">
-                        <img src="images/logoTwitter.png" alt="Découvrez notre page twitter !" style="width:100px;height:100px;">
+                        <img src="images/logoTwitter.png" alt="Découvrez notre page twitter !" style="width:100px;height:100px">
                     </a>
                 </aside>
+    
+                <nav class="col navbar navbar-light navbar-expand-lg d-lg-none">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav text-start">
+                            <li class="nav-item "> <a href="gammeParticulier.html">Particuliers</a> </li>
+                            <li class="nav-item"> <a href="gammeProfessionnelle.html">Professionnels</a> </li>
+                            <li class="nav-item"> <a href="index.html">Nos Valeurs</a> </li>
+                            <li class="nav-item"> <a href="index.html">Nous contacter</a> </li>
+                        </ul>
+                    </div>
+                </nav>
+    
             </header>
             <main>
                 <h1>Coulis Caramel</h1><br/>
                 <div class="row">
-                    <img class="col-4" src="images/Coulis_caramel.jpg" alt="Image Coulis Caramel" title="Coulis au Caramel" style="height:500px;">
+                    <img class="col-md-4" src="images/Coulis_caramel.jpg" alt="Image Coulis Caramel" title="Coulis au Caramel" style="height:500px;">
                     <article class="col">
                         <h2>Présentation du produit</h2><br/>
                         <p class="presentation">Le coulis BIO au Caramel fera un parfait accompagnateur de vos différents desserts en leur rajoutant goût et couleur.</p>
                         <p class="presentation">Nous vous proposons pour nos coulis des sachets de 125mL ou 250mL pour les plus gourmands!</p>
+                        <p class="presentation">Nos coulis sont certifiés fabrication biologique !</p>
+                        <img src="images/logo_bio.png" alt="Image logo BIO" title="Label agriculture biologique" style="height:100px;">
                     </article>
                 </div>
                 <hr/>
@@ -55,18 +72,21 @@
                 <div class="row">
                     <figure>
                         <a href="coulis_kiwi.html">
-                            <img class="col" src="images/Coulis_Kiwi.jpg" alt="Image Coulis Kiwi" title="Coulis au Kiwi" style="height:500px;">
-                            <figcaption>Kiwi</figcaption>
+                            <img class="col" src="images/Coulis_Kiwi.jpg" alt="Image Coulis Kiwi" title="Coulis au Kiwi" style="height:500px;">    
                         </a>
+                        <figcaption>Kiwi</figcaption>
                     </figure>
 
                 </div>
             </main>
             <footer class="row justify-content-around">
-                <article class="col-5">- Mentions légales<br/>- Nous contacter<br/>- Formulaire de retour</article>
-                <article class="col-5">Webmaster :<br/>Vincent GUENEUC  -<a href="mailto:vincent.gueneuc@etudiant.univ-rennes1.fr">vincent.gueneuc@etudiant.univ-rennes1.fr</a>-</article>
+                <h5 class="col-5">- Mentions légales<br/>- Nous contacter<br/>- Formulaire de retour</h5>
+                <h5 class="col-5">Webmaster :<br/>Vincent GUENEUC  -<a href="mailto:vincent.gueneuc@etudiant.univ-rennes1.fr">vincent.gueneuc@etudiant.univ-rennes1.fr</a>-</h5>
             </footer>
         </div>
         
+        <!-- JavaScript -->
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
